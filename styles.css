@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff6347;
+    font-size: 20px;
+}
+
+.section {
+    padding: 100px 20px;
+    margin-top: 60px;
+    height: 100vh;
+}
+
+#home {
+    background-color: #f9f9f9;
+}
+
+#about {
+    background-color: #e9e9e9;
+}
+
+#services {
+    background-color: #d9d9d9;
+}
+
+#contact {
+    background-color: #c9c9c9;
+}
